@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+.navhead {
+    font-family: "Goldman", cursive;
+    cursor: pointer;
+  }
+  .navhead:hover {
+    color: goldenrod;
+  }
+  .navbarmain {
+    color: white;
+  }
+  
+  #iconrotatenav {
+    animation: mymovenav 6s infinite linear;
+  }
+  @keyframes mymovenav {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+      
+    }
+  }
+  #iconrotate {
+    animation: mymove 3.7s infinite;
+  }
+  @keyframes mymove {
+    40% {
+      transform: rotate(10deg);
+    }
+  }
+  
